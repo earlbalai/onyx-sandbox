@@ -28,7 +28,7 @@ export default function Home() {
 
         <div className="text-gray-600">Preview iFrame below</div>
 
-        <div className="w-full h-[400px] border border-gray-300 rounded overflow-hidden shadow-sm">
+        <div className="w-full min-h-[250px]">
           <iframe
             key={sku} // forces iframe to reload when SKU changes
             src={`https://onyx.ktappliance.com/ai_widget?sku=${encodeURIComponent(sku)}`}
